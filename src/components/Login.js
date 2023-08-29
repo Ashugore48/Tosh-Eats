@@ -17,6 +17,7 @@ const LoginForm = () => {
     if (user && user.password === enteredPassword) {
       alert('Login successful');
       localStorage.setItem('currentUser', JSON.stringify(user));
+      window.location.href = "/";
 
       // Redirect or perform other actions after login
     } else {

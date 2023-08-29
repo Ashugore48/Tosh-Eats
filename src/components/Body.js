@@ -51,7 +51,7 @@ const Body = () => {
   }, [searchText, data]);
 
   return (
-    <div className="mt-20">
+    <div className="mt-20 bg-gray-100">
       <div className="flex justify-between px-5 shadow-lg h-12 items-center flex-wrap">
         <div className="flex gap-1 flex-wrap">
           <button
@@ -85,14 +85,12 @@ const Body = () => {
           ></input>
         </div>
       </div>
-      <h1 className="pl-20 pt-14 font-mono text-3xl text-gray-900 ">
-        Restaurants Near you....
-      </h1>
+
       <div className="flex flex-wrap justify-center gap-7 pb-10">
         {loading ? (
           // Loading screen
           <div className="flex justify-center h-screen">
-            <p className="text-center text-5xl font-bold">Loading...</p>
+            <p className="text-center text-5xl font-bold mt-10">Loading...</p>
           </div>
         ) : (
           // Content

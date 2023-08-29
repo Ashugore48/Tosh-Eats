@@ -1,5 +1,6 @@
 import { useSelector, useDispatch } from 'react-redux'
 import { Link } from "react-router-dom";
+import profilepic from "../assets/profile.jpg"
 
 
 const Header = () => {
@@ -20,6 +21,7 @@ const Header = () => {
           <li key={103}><Link to={"/SignupForm"}>Sign Up</Link></li>
           <li key={104}><Link to={"/Login"}>Login</Link></li>
           <li key={105}><Link to={"/cart"}>Cart -{cartItems.length} items</Link></li>
+          <li key={106}><Link to={"/Profile"}><img class="w-8 h-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src={profilepic} alt="Rounded avatar" /></Link></li>
           </ul>
         </div>
       </div>

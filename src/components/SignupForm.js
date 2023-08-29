@@ -11,35 +11,35 @@ const SignupForm = () => {
 
   const handleSignup = async (event) => {
     event.preventDefault();
-
+  
+    const existingUsers = JSON.parse(localStorage.getItem("users")) || [];
+  
     if (password !== confirmPassword) {
       setError("Passwords do not match");
       return;
     }
-
+  
     const isUsernameTaken = existingUsers.some(
       (user) => user.userName === userName
     );
-
+  
     if (isUsernameTaken) {
       setError("Username is already taken");
       return;
     }
-
+  
     setError("");
     setLoading(true); 
     const newUser = { userName, name, email, password };
-
+  
     // Simulating an API call or asynchronous operation
     await new Promise((resolve) => setTimeout(resolve, 1000));
-
-    const existingUsers = JSON.parse(localStorage.getItem("users")) || [];
+  
     console.log("user signup done");
-
     existingUsers.push(newUser);
-
+  
     localStorage.setItem("users", JSON.stringify(existingUsers));
-
+  
     setLoading(false); // Reset loading state
     setName("");
     setEmail("");
@@ -47,9 +47,10 @@ const SignupForm = () => {
     setConfirmPassword("");
     setUserName("");
     alert("signup successful");
-
+  
     // Redirect or perform other actions after signup
   };
+  
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100 mt-7">

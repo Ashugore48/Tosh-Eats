@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import fetchRestaurantData from "../constants";
 import { addItem } from "./cartSlice";
 import { useDispatch } from "react-redux";
+import isUserLoggedIn from "./isUserLoggedIn";
 
 const RestaurantDetails = () => {
   const { id } = useParams();
@@ -13,7 +14,12 @@ const RestaurantDetails = () => {
   const dispatch = useDispatch();
 
   const handleAddCart = (menuItem, quantity) => {
-    dispatch(addItem({ item: menuItem, quantity }));
+    if (isUserLoggedIn()) {
+      dispatch(addItem({ item: menuItem, quantity }));
+    } else {
+      // Handle unauthenticated user, e.g., show a message or redirect to login
+      alert('please log in to add')
+    }
   };
 
   const handleQuantityChange = (menuId, newQuantity) => {

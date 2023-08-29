@@ -13,6 +13,7 @@ import RestaurantDetails from "./components/RestaurantDetails";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import { Provider } from "react-redux";
 import store from "./components/store";
+import Profile from "./components/Profile";
 
 
 
@@ -65,6 +66,10 @@ const appRounter = createBrowserRouter([
       {
         path: "/login",
         element : <Login />,
+      },
+      {
+        path: "/Profile",
+        element: <Profile />
       }
 
     ]
