@@ -1,0 +1,662 @@
+  [
+    {
+      "id" : 10000,
+      "name": "Spices Delight",
+      "cuisine": "North Indian",
+      "image": "https://source.unsplash.com/800x450/?indian-food",
+      "rating": 4.5,
+      "price": "₹250",
+      "menu": [
+        {
+          "menuId": 100,
+          "item": "Butter Chicken",
+          "price": "₹300 for two",
+          "ETA": "15 minutes",
+          "image": "https://source.unsplash.com/800x450/?chicken"
+        },
+        {
+          "menuId": 102,
+          "item": "Garlic Naan",
+          "price": "₹50 for two",
+          "ETA": "5 minutes",
+          "image": "https://source.unsplash.com/800x450/?roti"
+        },
+        {
+          "menuId": 103,
+          "item": "Palak Paneer",
+          "price": "₹280 for two",
+          "ETA": "12 minutes",
+          "image": "https://source.unsplash.com/800x450/?paneer"
+        }
+      ],
+      "city": "Pune",
+      "location": "Koregaon Park"
+    },
+    {
+      "id" : 10001,
+      "name": "Curry Fusion",
+      "cuisine": "West Indian",
+      "image": "https://source.unsplash.com/800x450/?spicy",
+      "rating": 4.2,
+      "price": "₹350",
+      "menu": [
+        {
+          "menuId": 100,
+          "item": "Tandoori Sushi Rolls",
+          "price": "₹400 for two",
+          "ETA": "20 minutes",
+          "image": "https://source.unsplash.com/800x450/?sushi"
+        },
+        {
+          "menuId": 102,
+          "item": "Spicy Paneer Tacos",
+          "price": "₹320 for two",
+          "ETA": "10 minutes",
+          "image": "https://source.unsplash.com/800x450/?tacos"
+        },
+        {
+          "menuId": 103,
+          "item": "Masala Quesadilla",
+          "price": "₹280 for two",
+          "ETA": "15 minutes",
+          "image": "https://source.unsplash.com/800x450/?Quesadilla"
+        }
+      ],
+      "city": "Pune",
+      "location": "Deccan"
+    },
+    {
+      "id" : 10002,
+      "name": "Royal Biryani House",
+      "cuisine": "South Indian",
+      "image": "https://source.unsplash.com/800x450/?rice",
+      "rating": 4.8,
+      "price": "₹200",
+      "menu": [
+        {
+          "menuId": 100,
+          "item": "Chicken Dum Biryani",
+          "price": "₹220 for two",
+          "ETA": "25 minutes",
+          "image": "https://source.unsplash.com/800x450/?chicken"
+        },
+        {
+          "menuId": 102,
+          "item": "Vegetable Biryani",
+          "price": "₹180 for two",
+          "ETA": "20 minutes",
+          "image": "https://source.unsplash.com/800x450/?biryani"
+        },
+        {
+          "menuId": 103,
+          "item": "Mirchi ka Salan",
+          "price": "₹70 for two",
+          "ETA": "10 minutes",
+          "image": "https://source.unsplash.com/800x450/?spicy"
+        }
+      ],
+      "city": "Pune",
+      "location": "Shivajinagar"
+    },
+    {
+      "id" : 10003,
+      "name": "Chai & Chaat Corner",
+      "cuisine": "Street Food",
+      "image": "https://source.unsplash.com/800x450/?chaat",
+      "rating": 4.6,
+      "price": "₹100",
+      "menu": [
+        {
+          "menuId": 100,
+          "item": "Pani Puri",
+          "price": "₹60 for two",
+          "ETA": "5 minutes",
+          "image": "https://source.unsplash.com/800x450/?chaat"
+        },
+        {
+          "menuId": 102,
+          "item": "Vada Pav",
+          "price": "₹40 for two",
+          "ETA": "3 minutes",
+          "image": "https://source.unsplash.com/800x450/?chaat"
+        },
+        {
+          "menuId": 103,
+          "item": "Dahi Puri",
+          "price": "₹70 for two",
+          "ETA": "6 minutes",
+          "image": "https://source.unsplash.com/800x450/?chaat"
+        }
+      ],
+      "city": "Pune",
+      "location": "Camp"
+    },
+    {
+      "id" : 10004,
+      "name": "Coastal Spice",
+      "cuisine": "South Indian",
+      "image": "https://source.unsplash.com/800x450/?south-indian-food",
+      "rating": 4.4,
+      "price": "₹400",
+      "menu": [
+        {
+          "menuId": 100,
+          "item": "Masala Dosa",
+          "price": "₹180 for two",
+          "ETA": "10 minutes",
+          "image": "https://source.unsplash.com/800x450/?dosa"
+        },
+        {
+          "menuId": 102,
+          "item": "Fish Curry",
+          "price": "₹280 for two",
+          "ETA": "15 minutes",
+          "image": "https://source.unsplash.com/800x450/?fish"
+        },
+        {
+          "menuId": 103,
+          "item": "Medu Vada",
+          "price": "₹120 for two",
+          "ETA": "8 minutes",
+          "image": "https://source.unsplash.com/800x450/?vada"
+        }
+      ],
+      "city": "Pune",
+      "location": "Hinjewadi"
+    },
+    {
+      "id" : 10005,
+      "name": "Sher-E-Punjab",
+      "cuisine": "North Indian",
+      "image": "https://source.unsplash.com/800x450/?punjabi-food",
+      "rating": 4.2,
+      "price": "₹300",
+      "menu": [
+        {
+          "menuId": 100,
+          "item": "Chole Bhature",
+          "price": "₹250 for two",
+          "ETA": "15 minutes",
+          "image": "https://source.unsplash.com/800x450/?puri"
+        },
+        {
+          "menuId": 102,
+          "item": "Paneer Tikka",
+          "price": "₹320 for two",
+          "ETA": "10 minutes",
+          "image": "https://source.unsplash.com/800x450/?paneer"
+        },
+        {
+          "menuId": 103,
+          "item": "Mutton Curry",
+          "price": "₹380 for two",
+          "ETA": "20 minutes",
+          "image": "https://source.unsplash.com/800x450/?flesh"
+        }
+      ],
+      "city": "Pune",
+      "location": "Baner"
+    },
+    {
+      "id" : 10006,
+      "name": "Café Masala",
+      "cuisine": "Café",
+      "image": "https://source.unsplash.com/800x450/?cafe",
+      "rating": 4.6,
+      "price": "₹200",
+      "menu": [
+        {
+          "menuId": 100,
+          "item": "Espresso",
+          "price": "₹100 for two",
+          "ETA": "5 minutes",
+          "image": "https://source.unsplash.com/800x450/?Espresso"
+        },
+        {
+          "menuId": 102,
+          "item": "Vegetable Sandwich",
+          "price": "₹120 for two",
+          "ETA": "8 minutes",
+          "image": "https://source.unsplash.com/800x450/?sandwich"
+        },
+        {
+          "menuId": 103,
+          "item": "Chocolate Brownie",
+          "price": "₹80 for two",
+          "ETA": "6 minutes",
+          "image": "https://source.unsplash.com/800x450/?Brownie"
+        }
+      ],
+      "city": "Pune",
+      "location": "Kothrud"
+    },
+    {
+      "id" : 10007,
+      "name": "Mumbai Spice",
+      "cuisine": "West Indian",
+      "image": "https://source.unsplash.com/800x450/?maharashtrian-food",
+      "rating": 4.4,
+      "price": "₹180",
+      "menu": [
+        {
+          "menuId": 100,
+          "item": "Vada Pav",
+          "price": "₹50 for two",
+          "ETA": "5 minutes",
+          "image": "https://source.unsplash.com/800x450/?vada"
+        },
+        {
+          "menuId": 102,
+          "item": "Misal Pav",
+          "price": "₹90 for two",
+          "ETA": "8 minutes",
+          "image": "https://source.unsplash.com/800x450/?misal"
+        },
+        {
+          "menuId": 103,
+          "item": "Puran Poli",
+          "price": "₹40 for two",
+          "ETA": "6 minutes",
+          "image": "https://source.unsplash.com/800x450/?sweet"
+        }
+      ],
+      "city": "Pune",
+      "location": "Shaniwar Wada"
+    },
+    {
+      "id" : 10008,
+      "name": "Green Leaf Bistro",
+      "cuisine": "West Indian",
+      "image": "https://source.unsplash.com/800x450/?vegetarian-food",
+      "rating": 4.7,
+      "price": "₹280",
+      "menu": [
+        {
+          "menuId": 100,
+          "item": "Paneer Tikka Salad",
+          "price": "₹180 for two",
+          "ETA": "10 minutes",
+          "image": "https://source.unsplash.com/800x450/?salad"
+        },
+        {
+          "menuId": 102,
+          "item": "Vegetable Biryani",
+          "price": "₹220 for two",
+          "ETA": "15 minutes",
+          "image": "https://source.unsplash.com/800x450/?Vegetable"
+        },
+        {
+          "menuId": 103,
+          "item": "Tofu Wrap",
+          "price": "₹150 for two",
+          "ETA": "8 minutes",
+          "image": "https://source.unsplash.com/800x450/?Tofu"
+        }
+      ],
+      "city": "Pune",
+      "location": "Magarpatta"
+    },
+    {
+      "id" : 10009,
+      "name": "Flavors of Kerala",
+      "cuisine": "South Indian",
+      "image": "https://source.unsplash.com/800x450/?kerala-food",
+      "rating": 4.5,
+      "price": "₹350",
+      "menu": [
+        {
+          "menuId": 100,
+          "item": "Appam with Stew",
+          "price": "₹250 for two",
+          "ETA": "15 minutes",
+          "image": "https://source.unsplash.com/800x450/?stew"
+        },
+        {
+          "menuId": 102,
+          "item": "Malabar Fish Curry",
+          "price": "₹320 for two",
+          "ETA": "10 minutes",
+          "image": "https://source.unsplash.com/800x450/?fish"
+        },
+        {
+          "menuId": 103,
+          "item": "Coconut Ladoo",
+          "price": "₹80 for two",
+          "ETA": "6 minutes",
+          "image": "https://source.unsplash.com/800x450/?ladoo"
+        }
+      ],
+      "city": "Pune",
+      "location": "Kalyani Nagar"
+    },
+    {
+      "id" : 10010,
+      "name": "Desi Tadka",
+      "cuisine": "Street Food",
+      "image": "https://source.unsplash.com/800x450/?comfort-food",
+      "rating": 4.3,
+      "price": "₹220",
+      "menu": [
+        {
+          "menuId": 100,
+          "item": "Dal Makhani",
+          "price": "₹150 for two",
+          "ETA": "10 minutes",
+          "image": "https://source.unsplash.com/800x450/?dal"
+        },
+        {
+          "menuId": 102,
+          "item": "Aloo Paratha",
+          "price": "₹70 for two",
+          "ETA": "8 minutes",
+          "image": "https://source.unsplash.com/800x450/?paratha"
+        },
+        {
+          "menuId": 103,
+          "item": "Gajar Halwa",
+          "price": "₹80 for two",
+          "ETA": "6 minutes",
+          "image": "https://source.unsplash.com/800x450/?halwa"
+        }
+      ],
+      "city": "Pune",
+      "location": "Hadapsar"
+    },
+    {
+      "id" : 10011,
+      "name": "Sizzling Sizzlers",
+      "cuisine": "Street Food",
+      "image": "https://source.unsplash.com/800x450/?sizzlers",
+      "rating": 4.0,
+      "price": "₹400",
+      "menu": [
+        {
+          "menuId": 100,
+          "item": "Veg Sizzler",
+          "price": "₹350 for two",
+          "ETA": "15 minutes",
+          "image": "https://source.unsplash.com/800x450/?sizzler"
+        },
+        {
+          "menuId": 102,
+          "item": "Chicken Sizzler",
+          "price": "₹450 for two",
+          "ETA": "10 minutes",
+          "image": "https://source.unsplash.com/800x450/?chicken"
+        },
+        {
+          "menuId": 103,
+          "item": "Brownie Sizzler",
+          "price": "₹150 for two",
+          "ETA": "8 minutes",
+          "image": "https://source.unsplash.com/800x450/?Brownie"
+        }
+      ],
+      "city": "Pune",
+      "location": "Wakad"
+    },
+    {
+      "id" : 10012,
+      "name": "Taste of Rajasthan",
+      "cuisine": "North Indian",
+      "image": "https://source.unsplash.com/800x450/?rajasthani-food",
+      "rating": 4.6,
+      "price": "₹260",
+      "menu": [
+        {
+          "menuId": 100,
+          "item": "Dal Baati Churma",
+          "price": "₹180 for two",
+          "ETA": "15 minutes",
+          "image": "https://source.unsplash.com/800x450/?spicy"
+        },
+        {
+          "menuId": 102,
+          "item": "Gatte ki Sabzi",
+          "price": "₹150 for two",
+          "ETA": "10 minutes",
+          "image": "https://source.unsplash.com/800x450/?spicy"
+        },
+        {
+          "menuId": 103,
+          "item": "Mohanthal",
+          "price": "₹70 for two",
+          "ETA": "6 minutes",
+          "image": "https://source.unsplash.com/800x450/?spicy"
+        }
+      ],
+      "city": "Pune",
+      "location": "Aundh"
+    },
+    {
+      "id" : 10013,
+      "name": "Del Taco",
+      "cuisine": "Foreign Cuisine",
+      "image": "https://source.unsplash.com/800x450/?mexican-food",
+      "rating": 4.2,
+      "price": "₹380",
+      "menu": [
+        {
+          "menuId": 100,
+          "item": "Burritos",
+          "price": "₹250 for two",
+          "ETA": "15 minutes",
+          "image": "https://source.unsplash.com/800x450/?Burritos"
+        },
+        {
+          "menuId": 102,
+          "item": "Quesadillas",
+          "price": "₹220 for two",
+          "ETA": "10 minutes",
+          "image": "https://source.unsplash.com/800x450/?Quesadillas"
+        },
+        {
+          "menuId": 103,
+          "item": "Churros",
+          "price": "₹110 for two",
+          "ETA": "8 minutes",
+          "image": "https://source.unsplash.com/800x450/?Churros"
+        }
+      ],
+      "city": "Pune",
+      "location": "Vitthalwadi"
+    },
+    {
+      "id" : 10014,
+      "name": "Fusion Bites",
+      "cuisine": "Foreign Cuisine",
+      "image": "https://source.unsplash.com/800x450/?samosa",
+      "rating": 4.3,
+      "price": "₹320",
+      "menu": [
+        {
+          "menuId": 100,
+          "item": "Sushi Tacos",
+          "price": "₹280 for two",
+          "ETA": "15 minutes",
+          "image": "https://source.unsplash.com/800x450/?Sushi"
+        },
+        {
+          "menuId": 102,
+          "item": "Pasta Biryani",
+          "price": "₹350 for two",
+          "ETA": "10 minutes",
+          "image": "https://source.unsplash.com/800x450/?Pasta"
+        },
+        {
+          "menuId": 103,
+          "item": "Chocolate Samosa",
+          "price": "₹90 for two",
+          "ETA": "8 minutes",
+          "image": "https://source.unsplash.com/800x450/?Samosa"
+        }
+      ],
+      "city": "Pune",
+      "location": "Kharadi"
+    },
+    {
+      "id" : 10015,
+      "name": "Fiesta Mexicana",
+      "cuisine": "Foreign Cuisine",
+      "image": "https://source.unsplash.com/800x450/?mexican-food",
+      "rating": 4.7,
+      "price": "₹380",
+      "menu": [
+        {
+          "menuId": 100,
+          "item": "Burritos",
+          "price": "₹250 for two",
+          "ETA": "15 minutes",
+          "image": "https://source.unsplash.com/800x450/?Burritos"
+        },
+        {
+          "menuId": 102,
+          "item": "Quesadillas",
+          "price": "₹220 for two",
+          "ETA": "10 minutes",
+          "image": "https://source.unsplash.com/800x450/?Quesadillas"
+        },
+        {
+          "menuId": 103,
+          "item": "Churros",
+          "price": "₹110 for two",
+          "ETA": "8 minutes",
+          "image": "https://source.unsplash.com/800x450/?Churros"
+        }
+      ],
+      "city": "Pune",
+      "location": "Vitthalwadi"
+    },
+    {
+      "id" : 10016,
+      "name": "Nacho Daddy",
+      "cuisine": "Foreign Cuisine",
+      "image": "https://source.unsplash.com/800x450/?tacos",
+      "rating": 3.2,
+      "price": "₹320",
+      "menu": [
+        {
+          "menuId": 100,
+          "item": "Sushi Tacos",
+          "price": "₹280 for two",
+          "ETA": "15 minutes",
+          "image": "https://source.unsplash.com/800x450/?Sushi"
+        },
+        {
+          "menuId": 102,
+          "item": "Pasta Biryani",
+          "price": "₹350 for two",
+          "ETA": "10 minutes",
+          "image": "https://source.unsplash.com/800x450/?Pasta"
+        },
+        {
+          "menuId": 103,
+          "item": "Chocolate Samosa",
+          "price": "₹90 for two",
+          "ETA": "8 minutes",
+          "image": "https://source.unsplash.com/800x450/?Chocolate"
+        }
+      ],
+      "city": "Pune",
+      "location": "Kharadi"
+    },
+    {
+      "id" : 10017,
+      "name": "Crispy Cravings",
+      "cuisine": "Foreign Cuisine",
+      "image": "https://source.unsplash.com/800x450/?fast-food",
+      "rating": 4.0,
+      "price": "₹150",
+      "menu": [
+        {
+          "menuId": 100,
+          "item": "Cheeseburger",
+          "price": "₹120 for two",
+          "ETA": "10 minutes",
+          "image": "https://source.unsplash.com/800x450/?Cheeseburger"
+        },
+        {
+          "menuId": 102,
+          "item": "French Fries",
+          "price": "₹60 for two",
+          "ETA": "5 minutes",
+          "image": "https://source.unsplash.com/800x450/?Fries"
+        },
+        {
+          "menuId": 103,
+          "item": "Chocolate Shake",
+          "price": "₹70 for two",
+          "ETA": "6 minutes",
+          "image": "https://source.unsplash.com/800x450/?shake"
+        }
+      ],
+      "city": "Pune",
+      "location": "Aundh"
+    },
+    {
+      "id" : 10018,
+      "name": "Flavors of Gujarat",
+      "cuisine": "North Indian",
+      "image": "https://source.unsplash.com/800x450/?gujarati-food",
+      "rating": 4.5,
+      "price": "₹240",
+      "menu": [
+        {
+          "menuId": 100,
+          "item": "Dhokla",
+          "price": "₹100 for two",
+          "ETA": "8 minutes",
+          "image": "https://source.unsplash.com/800x450/?vada"
+        },
+        {
+          "menuId": 102,
+          "item": "Khandvi",
+          "price": "₹120 for two",
+          "ETA": "6 minutes",
+          "image": "https://source.unsplash.com/800x450/?samosa"
+        },
+        {
+          "menuId": 103,
+          "item": "Jalebi",
+          "price": "₹80 for two",
+          "ETA": "5 minutes",
+          "image": "https://source.unsplash.com/800x450/?jalebi"
+        }
+      ],
+      "city": "Pune",
+      "location": "Kondhwa"
+    },
+    {
+      "id" : 10019,
+      "name": "Aromatic Bites",
+      "cuisine": "Middle Indian",
+      "image": "https://source.unsplash.com/800x450/?middle-eastern-food",
+      "rating": 4.6,
+      "price": "₹280",
+      "menu": [
+        {
+          "menuId": 100,
+          "item": "Hummus and Pita",
+          "price": "₹150 for two",
+          "ETA": "8 minutes",
+          "image": "https://source.unsplash.com/800x450/?Pita"
+        },
+        {
+          "menuId": 102,
+          "item": "Falafel Wrap",
+          "price": "₹180 for two",
+          "ETA": "10 minutes",
+          "image": "https://source.unsplash.com/800x450/?Falafel"
+        },
+        {
+          "menuId": 103,
+          "item": "Baklava",
+          "price": "₹100 for two",
+          "ETA": "6 minutes",
+          "image": "https://source.unsplash.com/800x450/?Baklava"
+        }
+      ],
+      "city": "Pune",
+      "location": "Kalyani Nagar"
+    }
+  ]
