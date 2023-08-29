@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="py-10 flex mt-32 flex-col gap-3 items-center bg-gray-100">
+    <div className="py-10 flex pt-32 flex-col gap-3 items-center bg-gray-100">
         <p className="flex self-center font-bold text-6xl">Welcome to ToshEats</p>
         <p className="flex self-center font-normal text-3xl text-gray-400">Your Ultimate Dining Destination! At ToshEats</p>
         <div className="flex flex-row gap-2 py-8">
@@ -14,7 +14,7 @@ const About = () => {
 
         </div>
         <p className="mb-6 max-w-5xl flex text-2xl">
-          we're more than just a food ordering website - we're your go-to
+          We're more than just a food ordering website - we're your go-to
           platform for a delightful culinary adventure. With our cutting-edge
           technologies and user-friendly features, we're here to redefine the
           way you experience dining. Whether you're craving comfort food from
